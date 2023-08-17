@@ -1,0 +1,124 @@
+.division{
+    margin: 150px 0px;
+}
+
+.centercol{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: rgb(24, 14, 61); 
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nav.navbar-nav a{
+    padding: 20px;
+    margin: 0px 25px;
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-size: 1.2rem;
+}
+
+.nav.navbar-nav a:hover{
+    border-bottom: 2px solid greenyellow;
+    color: greenyellow;
+    transition: 0.5s ease-in-out;
+}
+
+
+@media (max-width:1130px){
+    .nav.navbar-nav a{
+        padding: 5px;
+        margin: 0px 2px;
+    }
+}
+@media  (min-width:1130px) and (max-width:1330px){
+    .nav.navbar-nav a{
+        padding: 10px;
+        margin: 0px 10px;
+    }
+}
+
+
+.about-line {
+    background: #aae800;
+    width: 100px;
+    height: 3px;
+    border: 0px;
+}
+
+.first-card {
+    background-color: #fff;
+    color: #110D3D;
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    /* border-radius: 10px; */
+    overflow: hidden;
+    /* border: 1px solid; */
+    /* border-color: #C0F826; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: unset;
+    background-color: transparent;
+    padding: 15px;
+}
+
+.first-card:hover{
+    background-color: rgb(244, 251, 232);
+    transition: 0.4s ease all;
+    transform: scale(1.05,1.05);
+}
+
+.first-card-head {
+    padding: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+.text-of-card {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+    margin: 16px 0px;
+    color: rgb(24, 14, 61);
+    font-family: '__Red_Hat_Display_cf8251','__Red_Hat_Display_Fallback_cf8251',"Segoe UI",Roboto,sans-serif;
+    text-align: left;
+}
+
+.para-of-card {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgb(24, 14, 61);
+    font-family: '__Red_Hat_Display_cf8251','__Red_Hat_Display_Fallback_cf8251',"Segoe UI",Roboto,sans-serif;
+    text-align: left;
+}
+
+.readmorebtn{
+    /* background-color: rgb(24, 14, 61) !important; */
+    color:#110D3D !important;
+    border: 1px solid #110D3D !important;
+}
+
+.readmorebtn:hover{
+    background-color: rgba(24, 14, 61, 0.897) !important;
+    color:white !important;
+    transition: 0.6s ease all;
+}
+
+

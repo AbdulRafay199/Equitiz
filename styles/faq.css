@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body{
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+.division{
+    margin: 130px 0px;
+}
+
+.centercol{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: rgb(24, 14, 61); 
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nav.navbar-nav a{
+    padding: 20px;
+    margin: 0px 25px;
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-size: 1.2rem;
+}
+
+.nav.navbar-nav a:hover{
+    border-bottom: 2px solid greenyellow;
+    color: greenyellow;
+    transition: 0.5s ease-in-out;
+}
+
+
+@media (max-width:1130px){
+    .nav.navbar-nav a{
+        padding: 5px;
+        margin: 0px 2px;
+    }
+}
+@media  (min-width:1130px) and (max-width:1330px){
+    .nav.navbar-nav a{
+        padding: 10px;
+        margin: 0px 10px;
+    }
+}
+
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+/* border: 1px solid #aae800; */
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
+
+}
+.hr-line{
+  width: 100%;
+  margin: auto;
+  background-color: rgb(24, 14, 61);
+  /* height: 1px; */
+}
+
+.faqmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 20px 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 1.3rem;
+
+}
+.faq-body{
+    margin: 10px 0px;
+    width: 100%; 
+    padding: auto;
+   
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #f3f1ff;
+    transition: 0.6s ease all;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+.about-line {
+    background: #aae800;
+    width: 100px;
+    height: 3px;
+    border: 0px;
+    margin: 0px;
+}

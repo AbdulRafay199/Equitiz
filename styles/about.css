@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body{
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+.centercol{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.division{
+    margin: 130px 0px;
+}
+
 /* navbar */
 
 .navbar{
@@ -70,7 +87,6 @@
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
-    role: presentational;
 }
 
 .about-p {
@@ -174,7 +190,6 @@
     border-radius: unset;
     padding-bottom: 0px;
     background-color: transparent;
-    max-height: 240px;
 }
 
 

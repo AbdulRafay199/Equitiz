@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body{
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
 
 .division{
-    margin: 150px 0px;
+    margin: 130px 0px;
 }
 
 .centercol{
@@ -30,7 +36,34 @@
     transition: 0.5s ease-in-out;
 }
 
+.herotxt{
+  color: #C0F826;
+  font-size: 4rem;
+}
 
+.heropara{
+  font-size: 3rem;
+}
+
+.hometxt{
+  text-align: justify;
+}
+
+
+@media (max-width:576px){
+  .herotxt{
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .heropara{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .heropara2{
+    text-align: center;
+  }
+}
 @media (max-width:1130px){
     .nav.navbar-nav a{
         padding: 5px;
@@ -52,6 +85,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+}
+
+@media (max-width:992px){
+  .heroimg{
+    display: none;
+  }
 }
 
 /* cards sections */
@@ -76,7 +116,6 @@
     border-radius: unset;
     padding-bottom: 0px;
     background-color: transparent;
-    max-height: 240px;
 }
 
 .first-card:hover{

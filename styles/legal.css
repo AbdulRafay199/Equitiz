@@ -1,0 +1,99 @@
+body{
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+.division{
+    margin: 130px 0px;
+}
+
+.centercol{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: rgb(24, 14, 61); 
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nav.navbar-nav a{
+    padding: 20px;
+    margin: 0px 25px;
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-size: 1.2rem;
+}
+
+.nav.navbar-nav a:hover{
+    border-bottom: 2px solid greenyellow;
+    color: greenyellow;
+    transition: 0.5s ease-in-out;
+}
+
+
+@media (max-width:1130px){
+    .nav.navbar-nav a{
+        padding: 5px;
+        margin: 0px 2px;
+    }
+}
+@media  (min-width:1130px) and (max-width:1330px){
+    .nav.navbar-nav a{
+        padding: 10px;
+        margin: 0px 10px;
+    }
+}
+
+/* hero section */
+
+.hero{
+    height: 80vh;
+    background-color: rgb(24, 14, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.herotxt{
+  color: #C0F826;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.heropara{
+  font-size: 3rem;
+}
+
+.hometxt{
+  text-align: justify;
+}
+
+.legal-section{
+  padding: 20px;
+}
+
+@media (max-width:576px){
+  .herotxt{
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .heropara{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .heropara2{
+    text-align: center;
+  }
+}
+
+@media (max-width:992px){
+  .heroimg{
+    display: none;
+  }
+}

@@ -1,4 +1,25 @@
 
+body{
+  top: 0px !important;
+}
+
+.goog-te-combo {
+  background-color: #ecebf0 !important;
+  border: 0px !important;
+  border-radius: 10px !important;
+  font-size: 10pt;
+  font-weight:600;
+  display: inline-block;
+  padding: 10px !important;
+  cursor: pointer;
+  color: #005779;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd{
+  visibility: hidden !important;
+}
+
+
 /* navbar */
 
 .navbar{

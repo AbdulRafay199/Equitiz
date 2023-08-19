@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <script src="js/translator.js"></script>
     <title>Equitiz - Home</title>
 </head>
 <body>
@@ -57,9 +58,9 @@
             <div class="container">
                 <div class="row d-flex justify-content-center align-content-center">
                     <div class="col-sm-12 col-lg-6 text-light d-flex justify-content-center flex-column p-4">
-                        <h1 class="herotxt">Experience Trading</h1>
-                        <p class="heropara">with a #1 Rated Broker</p>
-                        <p class="heropara2">With 0.0 spreads, $0 deposit fees, $0 minimum account size and over 13 years of operating, savvy traders like you have already made the switch.</p>
+                        <h1 class="herotxt">Equitiz</h1>
+                        <p class="heropara">Power at your fingertips</p>
+                        <p class="heropara2">Our flexible, secure, and customizable platform helps you achieve your investment goals.</p>
                     </div>
                     <div class="col-sm-12 col-lg-6 d-flex justify-content-center align-items-start flex-column">
                         <img class="heroimg img-fluid" src="images/home/undraw_digital_currency_qpak__1_-removebg-preview.png" alt="">
@@ -69,20 +70,126 @@
       </div>
       <br>
 
+      <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast" class="toast bg-dark show" role="alert" aria-live="assertive" aria-atomic="true" style="width: 300px;">
+            <div class="toast-header bg-dark text-light">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="https://equitiz.com/img/logo.png" class="rounded me-2" alt="..." width="100px">
+                    </div>
+                    <div class="col-12">
+                        <strong class="me-auto">Want to change Language?</strong>
+                    </div>
+                </div>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                <div id="google_translate_element"></div>
+            </div>
+        </div>
+        </div>
+
       <section>
         <div class="container hometxt p-4" style="margin-top: 20px;">
-            <h2 class="my-5 text-start">Exploring the Depths of Equitiz: A Fair and Comprehensive Platform Analysis</h2>
-            <p>In the dynamic realm of trading platforms, Finflow has emerged as a noteworthy contender, sparking curiosity among traders. However, it is imperative to sift through the promotional noise and uncover the platform's authentic merits and shortcomings.</p>
-            <p>Within this transparent Finflow assessment, we delve profoundly into the fundamental components of the platform. We cast a spotlight on its adherence to regulatory standards, the intricacies of initiating an account, the quality of customer assistance, the diversity of its product offerings, and the structure of fees and charges. Our commitment to impartiality seeks to offer an unfiltered evaluation, equipping you with a pragmatic standpoint on the platform's overall performance.</p>
-            <p>Irrespective of whether you are a seasoned trader well-versed in the art of the market or a newcomer eager to embark on your trading journey, we invite you to accompany us on this expedition as we navigate through the intricacies of Finflow. Our mission is to empower you with the insights needed to make a well-informed and sound decision regarding the compatibility of Finflow with your trading aspirations.</p>
+            <h2 class="my-5 text-start">Delving into Equitiz: A Comprehensive Analysis of a Transparent Platform.</h2>
+            <p>In the ever-evolving landscape of trading platforms, Equitiz has emerged as a notable contender, piquing the curiosity of traders. Nevertheless, it is essential to cut through the promotional noise and uncover the genuine strengths and weaknesses of the platform.</p>
+            <p>In this transparent evaluation of Equitiz, we take an in-depth look at the platform's core aspects. We shine a light on its adherence to regulatory standards, the nuances of setting up an account, the quality of customer support, the variety of available products, and the structure of fees and charges. Our commitment to impartiality ensures an unbiased assessment, providing you with a practical perspective on the platform's overall performance.</p>
+            <p>Whether you're an experienced trader well-versed in market intricacies or a newcomer eager to embark on your trading journey, we extend an invitation to join us on this exploration as we navigate the complexities of Equitiz. Our aim is to equip you with the insights necessary to make a well-informed and prudent decision regarding the compatibility of Finflow with your trading aspirations.</p>
         </div>
       </section>
+
+      
+      <section>
+          <div class="container p-4">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="container outerprosncons my-2" style="background-color: rgb(244, 251, 232); border: 1px solid greenyellow;">
+                        <h6 class="fw-bold">Pros</h6>
+                        <div class="d-flex innerprosncons">
+                            <i class="bi bi-check-circle"></i>
+                            <p class="prosncons">Pioneering trading platform reshaping market interaction.</p>
+                        </div>
+                        <div class="d-flex innerprosncons">
+                            <i class="bi bi-check-circle"></i>
+                            <p class="prosncons">Intuitive user interface and features designed with traders in mind.</p>
+                        </div>
+                        <div class="d-flex innerprosncons">
+                            <i class="bi bi-check-circle"></i>
+                            <p class="prosncons">Range of asset classes expands horizons for diverse market opportunities.</p>
+                        </div>
+                        <div class="d-flex innerprosncons">
+                            <i class="bi bi-check-circle"></i>
+                            <p class="prosncons">Swift withdrawals guarantee timely access to earnings.</p>
+                        </div>
+                        <div class="d-flex innerprosncons">
+                            <i class="bi bi-check-circle"></i>
+                            <p class="prosncons">Economical fee structure maximizes cost efficiency.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="container outerprosncons my-2" style="background-color: rgb(241, 237, 255); border: 1px solid rgb(24, 14, 61);">
+                        <h6 class="fw-bold">Cons</h6>
+                        <div class="d-flex innerprosncons">
+                            <i class="bi bi-check-circle"></i>
+                            <p class="prosncons">Presently, there's room for improvement in providing detailed trading feature information.</p>
+                        </div>
+                        <div class="d-flex innerprosncons">
+                            <i class="bi bi-check-circle"></i>
+                            <p class="prosncons">While the platform covers a wide array of asset classes, some traders might seek more specialized options.</p>
+                        </div>
+                        <div class="d-flex innerprosncons">
+                            <i class="bi bi-check-circle"></i>
+                            <p class="prosncons">Social trading and community interaction features could enhance engagement and learning opportunities.</p>
+                        </div>
+                        <div class="d-flex innerprosncons">
+                            <i class="bi bi-check-circle"></i>
+                            <p class="prosncons">Advanced technical analysis tools could bolster the platform's appeal for seasoned traders.</p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section>
+          <div class="division p-4">
+              <div class="container d-flex justify-content-center align-items-center flex-column position-relative" style="background-color: rgb(224, 221, 221);">
+                <div class="position-absolute top-0 start-50 translate-middle">
+                    <img class="reviewimg" src="https://www.digicatapult.org.uk/wp-content/uploads/2021/11/DC_square_People_juergen-600x600-c-default.jpg" alt="">
+                    <!-- <i class="bi bi-person-circle fs-1"></i> -->
+                </div>
+                <div class="reviewtxt">
+                    <h2 style="color: rgb(106, 177, 0);">Maxime Blanchet</h2>
+                    <h5>Paris, France</h5>
+                    <p class="text-center my-3">“Equitiz has helped me diversify my investments by allowing me to trade stocks, crypto, and forex. The leverage they offer has also helped me make larger trades and earn more profits. I’m very satisfied with their platform and recommend it to anyone looking for a reliable broker ”</p>
+                </div>
+            </div>
+            <div class="container text-light" style="height: 10%; background-color: rgb(24, 14, 61);">
+                <h4 style="visibility: hidden;">hello</h4>
+            </div>
+        </div>
+    </section>
+
+      <section>
+        <div class="container hometxt p-4">
+            <h2 class="mb-5 fw-bold">What is Equitz?</h2>
+            <p>Equitiz is a cutting-edge trading platform that opens the door to a comprehensive range of trading opportunities. Our platform empowers traders and investors to navigate the dynamic worlds of both cryptocurrencies and traditional markets with confidence.</p>
+            <p>Equitiz provides an intuitive and secure environment for executing trades, supported by advanced tools and real-time data. We understand the significance of reliable broker partnerships, which is why we collaborate with top-tier brokers to offer competitive spreads, fast execution, and expert market analysis.</p>
+            <p>Education is at the core of our approach. Equitiz offers an extensive library of free educational resources, including articles, tutorials, and videos, designed to enhance your trading skills. Stay informed about the latest market trends through our daily news section, allowing you to make well-informed investment decisions.</p>
+            <p>Our dedicated team of professionals is committed to providing comprehensive support throughout your trading journey. Whether your interests lie in cryptocurrencies, stocks, forex, or commodities, Equitiz caters to a diverse range of trading options. We guide you through various markets, strategies, and instruments, enabling you to trade whatever aligns with your goals.</p>
+            <p>Diversification is key to successful investing. Equitiz offers an array of assets, from cryptocurrencies and forex to commodities and stocks. Our platform presents numerous opportunities to build a diversified investment portfolio and explore various markets, maximizing your potential for growth.</p>
+            <p>Whether you're an experienced trader or a newcomer taking your first steps in the trading world, Equitiz equips you with the tools, knowledge, and support needed to thrive and succeed in the ever-evolving trading landscape.</p>
+        </div>
+      </section>
+
+
 
       <section>
         <div class="container division p-4">
             <div class="row d-flex justify-content-center align-content-center">
                 <div class="col-sm-12 col-md-6 col-lg-4 centercol">
-
                     <div class="first-card" style="margin-right: 2%;">
                         <div class="svg-card">
                             <div class="svg-1">
@@ -95,14 +202,14 @@
                             </div>
                         </div>
                         <div class="first-card-head">
-                            <h6 class="text-of-card">Auditing</h6>
-                            <p class="para-of-card">Global Prime conducts regular independent external audits of its financial and compliance arrangements to ensure regulatory compliance.</p>
+                            <h6 class="text-of-card">Trusted Broker Partners</h6>
+                            <p class="para-of-card">We understand the importance of reputable brokers in trading. That's why we've partnered with top-tier brokers who offer competitive spreads, lightning-fast execution, and comprehensive market analysis. Whether you're interested in crypto, stocks, forex, or commodities, our broker partners provide the expertise and support you need to make informed decisions.</p>
                         </div>
                     </div>
                     
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 centercol">
-
+  
                   <div class="first-card" style="margin-right: 2%;">
                       <div class="svg-card">
                           <div class="svg-1">
@@ -116,14 +223,13 @@
                       </div>
                       <div class="first-card-head">
                           <h6 class="text-of-card">
-                              Good Corporate Citizens</h6>
+                            Education at Your Fingertips</h6>
                           <p
                               class="para-of-card">
-                              We are good corporate citizens and take our obligations as Financial Services
-                              Licences holders seriously to ensure regulatory compliance.</p>
+                              Education is key to successful trading, and at Equitiz, knowledge is power. Access our extensive library of free educational materials, including articles, tutorials, and videos designed to enhance your trading skills. Stay updated with our daily news section, offering insights to help you make well-informed investment choices.</p>
                       </div>
                   </div>
-
+  
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 centercol">
                     
@@ -140,105 +246,42 @@
                         </div>
                         <div class="first-card-head">
                             <h6 class="text-of-card">
-                                Clean Sheet</h6>
+                                Comprehensive Support</h6>
                             <p
                                 class="para-of-card">
-                                We have no adverse regulatory or judicial findings against us from any financial
-                                regulator, government body or court of law.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container division p-4">
-            <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-sm-12 col-lg-6">
-                    <div class="container outerprosncons my-2" style="background-color: rgb(244, 251, 232); border: 1px solid greenyellow;">
-                        <h6 class="fw-bold">Pros</h6>
-                        <div class="d-flex innerprosncons">
-                            <i class="bi bi-check-circle"></i>
-                            <p class="prosncons">Innovative trading platform revolutionizing engagement with the market.</p>
-                        </div>
-                        <div class="d-flex innerprosncons">
-                            <i class="bi bi-check-circle"></i>
-                            <p class="prosncons">User-centric design and features for an intuitive trading experience.</p>
-                        </div>
-                        <div class="d-flex innerprosncons">
-                            <i class="bi bi-check-circle"></i>
-                            <p class="prosncons">Diverse asset classes offer varied market opportunities.</p>
-                        </div>
-                        <div class="d-flex innerprosncons">
-                            <i class="bi bi-check-circle"></i>
-                            <p class="prosncons">Fast withdrawals ensure prompt access to earnings.</p>
-                        </div>
-                        <div class="d-flex innerprosncons">
-                            <i class="bi bi-check-circle"></i>
-                            <p class="prosncons">Low fees optimize cost-effectiveness.</p>
+                                Our team of experienced professionals is dedicated to assisting you throughout your trading journey. We support a wide range of trading options, from cryptocurrencies to stocks, forex, and commodities. With our guidance, explore various markets, strategies, and instruments, enabling you to trade whatever aligns with your interests.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-lg-6">
-                    <div class="container outerprosncons my-2" style="background-color: rgb(241, 237, 255); border: 1px solid rgb(24, 14, 61);">
-                        <h6 class="fw-bold">Cons</h6>
-                        <div class="d-flex innerprosncons">
-                            <i class="bi bi-check-circle"></i>
-                            <p class="prosncons">Innovative trading platform revolutionizing engagement with the market.</p>
+                <div class="col-sm-12 col-md-6 col-lg-4 centercol">
+                    <div class="first-card">
+                        <div class="svg-card">
+                            <div class="svg-1">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="m12.9 21.9 10.575-10.575-2.1-2.1L12.9 17.7l-4.275-4.275-2.1 2.1L12.9 21.9ZM15 30c-2.075 0-4.025-.394-5.85-1.182-1.825-.787-3.413-1.856-4.763-3.206-1.35-1.35-2.418-2.937-3.205-4.762C.394 19.025 0 17.075 0 15c0-2.075.394-4.025 1.182-5.85.787-1.825 1.856-3.413 3.206-4.763 1.35-1.35 2.937-2.418 4.762-3.206C10.975.393 12.925 0 15 0c2.075 0 4.025.394 5.85 1.18 1.825.788 3.412 1.858 4.762 3.208 1.35 1.35 2.419 2.937 3.206 4.762C29.606 10.975 30 12.925 30 15c0 2.075-.394 4.025-1.182 5.85-.787 1.825-1.856 3.412-3.206 4.762-1.35 1.35-2.937 2.419-4.762 3.206C19.025 29.606 17.075 30 15 30Zm0-3c3.35 0 6.188-1.163 8.512-3.488C25.837 21.188 27 18.35 27 15c0-3.35-1.163-6.188-3.488-8.512C21.188 4.162 18.35 3 15 3c-3.35 0-6.188 1.162-8.512 3.487C4.162 8.813 3 11.65 3 15c0 3.35 1.162 6.188 3.487 8.512C8.813 25.837 11.65 27 15 27Z"
+                                        fill="#1C1B1F"></path>
+                                </svg>
+                            </div>
                         </div>
-                        <div class="d-flex innerprosncons">
-                            <i class="bi bi-check-circle"></i>
-                            <p class="prosncons">User-centric design and features for an intuitive trading experience.</p>
-                        </div>
-                        <div class="d-flex innerprosncons">
-                            <i class="bi bi-check-circle"></i>
-                            <p class="prosncons">Diverse asset classes offer varied market opportunities.</p>
-                        </div>
-                        <div class="d-flex innerprosncons">
-                            <i class="bi bi-check-circle"></i>
-                            <p class="prosncons">Fast withdrawals ensure prompt access to earnings.</p>
-                        </div>
-                        <div class="d-flex innerprosncons">
-                            <i class="bi bi-check-circle"></i>
-                            <p class="prosncons">Low fees optimize cost-effectiveness.</p>
+                        <div class="first-card-head">
+                            <h6 class="text-of-card">
+                                Diverse Asset Range</h6>
+                            <p
+                                class="para-of-card">
+                                We believe in diversification. Choose from a wide array of assets, including cryptocurrencies, forex, commodities, and stocks. Our platform presents numerous opportunities to build a well-rounded investment portfolio and explore different markets. Benefit from our robust trading options and capitalize on growth potential across diverse asset classes.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
       </section>
-
-      <section>
-        <div class="division p-4">
-            <div class="container d-flex justify-content-center align-items-center flex-column position-relative" style="background-color: rgb(224, 221, 221);">
-                <div class="position-absolute top-0 start-50 translate-middle">
-                    <img class="reviewimg" src="https://www.digicatapult.org.uk/wp-content/uploads/2021/11/DC_square_People_juergen-600x600-c-default.jpg" alt="">
-                    <!-- <i class="bi bi-person-circle fs-1"></i> -->
-                </div>
-                <div class="reviewtxt">
-                    <h2 style="color: rgb(106, 177, 0);">Gergely Korpos</h2>
-                    <h5>Co-founder / CPO</h5>
-                    <p class="text-center my-3">“I recommend Finflow for traders seeking a comprehensive trading experience across various markets, including Forex, Crypto, Stocks, Commodities, and NFTs. The platform offers excellent account opening procedures and is particularly beneficial for traders who prefer a user-friendly interface and customizable options”</p>
-                </div>
-            </div>
-            <div class="container text-light" style="height: 10%; background-color: rgb(24, 14, 61);">
-                <h4 style="visibility: hidden;">hello</h4>
-            </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container hometxt p-4">
-            <h2 class="mb-5 fw-bold">What is Equitz?</h2>
-            <p>In the dynamic realm of trading platforms, Finflow has emerged as a noteworthy contender, sparking curiosity among traders. However, it is imperative to sift through the promotional noise and uncover the platform's authentic merits and shortcomings.</p>
-            <p>Within this transparent Finflow assessment, we delve profoundly into the fundamental components of the platform. We cast a spotlight on its adherence to regulatory standards, the intricacies of initiating an account, the quality of customer assistance, the diversity of its product offerings, and the structure of fees and charges. Our commitment to impartiality seeks to offer an unfiltered evaluation, equipping you with a pragmatic standpoint on the platform's overall performance.</p>
-            <p>Irrespective of whether you are a seasoned trader well-versed in the art of the market or a newcomer eager to embark on your trading journey, we invite you to accompany us on this expedition as we navigate through the intricacies of Finflow. Our mission is to empower you with the insights needed to make a well-informed and sound decision regarding the compatibility of Finflow with your trading aspirations.</p>
-        </div>
-      </section>
-
     
+
+
       <section>
             <div class="container main-highlights p-4">
                 <h3>Equitiz main highlights</h3>
@@ -316,13 +359,13 @@
                     <div class="position-absolute top-0 start-50 translate-middle">
                         <div class="progression-studios-hexagon-border">
                             <div class="progression-blog-review-total">
-                                <span>5/5</span>
+                                <span>4.9/5</span>
                                 <div class="progression-blog-review-one-word my-1">Score</div>
                             </div>
                         </div>
                     </div>
                     <div class="container">
-                        <h2 class="text-center fw-bold" style="margin-top: 60px; margin-bottom: 30px;">Fees</h2>
+                        <h2 class="text-center fw-bold" style="margin-top: 60px; margin-bottom: 30px;">Account opening</h2>
                     </div>
 
                 </div>
@@ -337,7 +380,97 @@
                         </div>
                     </div>
                     <div class="container">
-                        <h2 class="text-center fw-bold" style="margin-top: 60px; margin-bottom: 30px;">Fees</h2>
+                        <h2 class="text-center fw-bold" style="margin-top: 60px; margin-bottom: 30px;">Deposit and withdrawal</h2>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-lg-4 scorediv position-relative my-5 mx-2" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+
+                    <div class="position-absolute top-0 start-50 translate-middle">
+                        <div class="progression-studios-hexagon-border">
+                            <div class="progression-blog-review-total">
+                                <span>4.2/5</span>
+                                <div class="progression-blog-review-one-word my-1">Score</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 class="text-center fw-bold" style="margin-top: 60px; margin-bottom: 30px;">Web trading platform</h2>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-lg-4 scorediv position-relative my-5 mx-2" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+
+                    <div class="position-absolute top-0 start-50 translate-middle">
+                        <div class="progression-studios-hexagon-border">
+                            <div class="progression-blog-review-total">
+                                <span>5/5</span>
+                                <div class="progression-blog-review-one-word my-1">Score</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 class="text-center fw-bold" style="margin-top: 60px; margin-bottom: 30px;">Mobile trading platform</h2>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-lg-4 scorediv position-relative my-5 mx-2" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+
+                    <div class="position-absolute top-0 start-50 translate-middle">
+                        <div class="progression-studios-hexagon-border">
+                            <div class="progression-blog-review-total">
+                                <span>4.5/5</span>
+                                <div class="progression-blog-review-one-word my-1">Score</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 class="text-center fw-bold" style="margin-top: 60px; margin-bottom: 30px;">Markets and products</h2>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-lg-4 scorediv position-relative my-5 mx-2" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+
+                    <div class="position-absolute top-0 start-50 translate-middle">
+                        <div class="progression-studios-hexagon-border">
+                            <div class="progression-blog-review-total">
+                                <span>4.7/5</span>
+                                <div class="progression-blog-review-one-word my-1">Score</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 class="text-center fw-bold" style="margin-top: 60px; margin-bottom: 30px;">Research</h2>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-lg-4 scorediv position-relative my-5 mx-2" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+
+                    <div class="position-absolute top-0 start-50 translate-middle">
+                        <div class="progression-studios-hexagon-border">
+                            <div class="progression-blog-review-total">
+                                <span>5/5</span>
+                                <div class="progression-blog-review-one-word my-1">Score</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 class="text-center fw-bold" style="margin-top: 60px; margin-bottom: 30px;">Customer service</h2>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-lg-4 scorediv position-relative my-5 mx-2" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+
+                    <div class="position-absolute top-0 start-50 translate-middle">
+                        <div class="progression-studios-hexagon-border">
+                            <div class="progression-blog-review-total">
+                                <span>4.3/5</span>
+                                <div class="progression-blog-review-one-word my-1">Score</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 class="text-center fw-bold" style="margin-top: 60px; margin-bottom: 30px;">Education</h2>
                     </div>
 
                 </div>
@@ -363,7 +496,7 @@
                         </div>
                         <div class="review-explicit">
                             <p>
-                                Competitive fee structure with low forex fees. Free deposit and withdrawal options. Inactivity fee and relatively high stock CFD fees.
+                                Competitive fee structure with low forex fees. Convenient deposit and withdrawal options at no cost. Notable inactivity fee and slightly elevated stock CFD fees.
                             </p>
                         </div>
                         <div class="review-content">
@@ -441,274 +574,608 @@
 
                   <div class="col-sm-12 col-lg-12">
 
-                    <div class="review" id="fees">
-                        <span>Equitiz review</span>
+                    <div class="review" id="opening">
+                        <span>Finflow-x review</span>
                         <div class="review-title">
                             <div class="review-title-left">
-                                <h3>Fees</h3>
-                                <p><span class="badge fs-6" style="border: 1px solid rgb(24, 14, 61); color: rgb(24, 14, 61);">Score: 5/5</span></p>
+                                <h3>Account opening</h3>
+                                <p><span class="badge fs-6" style="border: 1px solid #005779; color: #005779;">Score: 4.5/5</span></p>
                             </div>
-                            <div>
-                                <span class="arrow"><i class="bi bi-arrow-right-circle fs-1 arrowclr"></i></span>
+                            <div class="review-title-right">
+                                <span class="arrow"><img src="img/arrow.svg" alt=""></span>
                             </div>
                         </div>
                         <div class="review-explicit">
-                            <p>
-                                Competitive fee structure with low forex fees. Free deposit and withdrawal options. Inactivity fee and relatively high stock CFD fees.
-                            </p>
+                            <p>Streamlined and straightforward account opening process. Verification completed swiftly within a span of two hours.
+                                </p>
                         </div>
                         <div class="review-content">
                             <div class="summary-text-pros">
                                 <div class="col-lg-6 summary-pros">
-                                    <span style="color: #005779">Pros</span>
+                                    <span>Pros</span>
                                     <ul>
-                                        <li>Low forex fees</li>
-                                        <li>No withdrawal fee</li>
+                                        <li>Fast account opening</li>
+                                        <li>Fully digital process</li>
+                                        <li>Low minimum deposit</li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6 summary-cons">
-                                    <span style="color: purple">Cons</span>
+                                    <span>Cons</span>
                                     <ul>
-                                        <li>Inactivity fee</li>
-                                        <li>Stock CFD fees</li>
+                                        <li>None</li>
                                     </ul>
                                 </div>
                             </div>
-                            <h4>Assets:</h4>
-                            <div class="reviewperks my-4">
-                                <div class="perk">
-                                    <span>S&P 500 CFD benchmark fee</span>
-                                    <p><b>$2.9</b></p>
-                                </div>
-                                <div class="perk">
-                                    <span>Credit/debit card deposit</span>
-                                    <p><b>Yes</b></p>
-                                </div>
-                                <div class="perk">
-                                    <span>Minimum deposit</span>
-                                    <p><b>$1500</b></p>
-                                </div>
-                                <div class="perk">
-                                    <span>Negative balance protection</span>
-                                    <p><b>Yes</b></p>
-                                </div>
-                            </div>
-                            <h4>How fees are ranked:</h4>
+                            <h4>What is the minimum deposit at Finflow-X?</h4>
+                            <p>The required minimum deposit at Finflow-X is $1500, which is an attractive
+                                feature for traders looking to start with a low amount.</p>
+                            <h4>Account Types:</h4>
+                            <p>Finflow-X offers different account types, each with varying pricing, trading
+                                platforms, and execution methods. These account types include:</p>
+                            <ul>
+                                <li>Basic Account: €1,500 deposit, 24/7 support, professional charting,
+                                    7-day managed trial, 5 markets access, 1:25 leverage.</li>
+                                <li>Silver Account: €25,000 deposit, personal analyst, monthly sessions,
+                                    24/7 support, 30-day managed trial, 5 markets access, 1 free monthly
+                                    withdrawal, up to 30% bonus, 1:25 leverage.</li>
+                                <li>Gold Account: €50,000 deposit, personal analyst, weekly sessions, 24/7
+                                    support, managed account membership, 5 markets access, 1 free weekly
+                                    withdrawal, up to 50% bonus, 1:25 leverage.</li>
+                                <li>Platinum Account: €150,000 deposit, personal analyst, weekly sessions,
+                                    24/7 support, WhatsApp dealing, 5 markets access, 1 free weekly
+                                    withdrawal, up to 75% bonus, Platinum Market access, 1:100 leverage.
+                                </li>
+                                <li>VIP Account: Contact account manager for details; fully managed account,
+                                    no fees, WhatsApp dealing, direct analyst communication, 1 protected
+                                    trade/month, 1 market research/month, 1:200 leverage.</li>
+                            </ul>
                             <p>
-                                Finflow-X's fee levels are ranked as low, average, or high based on a
-                                comparison with other reviewed brokers. Trading fees and non-trading fees
-                                are taken into account.
-                                <br><br> Trading fees include commissions, spreads, financing rates, and
-                                conversion fees. Non-trading fees include charges unrelated to trading, such
-                                as withdrawal fees or inactivity fees.
-                                <br><br> Comparisons are made with similar brokers, based on objective
-                                factors like product offerings, client profile, and fee structure.
+                                Additionally, there is a VIP account available for clients with a minimum
+                                account balance of $50,000 or its equivalent. The VIP account offers
+                                additional benefits such as a free Virtual Private Server service and
+                                reduced prices.
+                                <br><br> Finflow-X also provides options for corporate accounts and
+                                swap-free/Islamic accounts tailored to accommodate religious requirements.
                             </p>
-                            <h4>Trading Fees:</h4>
+                            <h4>How to open your account: </h4>
                             <p>
-                                Finflow-X's trading fees are considered low. The pricing structure depends
-                                on the chosen account type, with the review focusing on the FxPro Platform
-                                account.
-                                <br><br> To make fee comparisons clear and comparable, a typical trade
-                                scenario was used for selected products in different asset classes. This
-                                includes popular instruments such as stock index CFDs, stock CFDs,
-                                and forex pairs.
-                            </p>
-                            <h4>Non-Trading Fees:</h4>
-                            <p>
-                                Finflow-X has average non-trading fees. There are no account fees, and most
-                                withdrawals are free. However, fees may apply when withdrawing funds to
-                                Neteller or Skrill without trading or refunding to PayPal after more than 6
-                                months from the initial funding.
-                                <br><br>
-                                <br><br> Overall, Finflow-X offers competitive fees for trading, but it's
-                                important to be aware of the potential inactivity fee and higher stock CFD
-                                fees.
+                                Opening an account with Finflow-X is a seamless and fully digital process.
+                                You can easily complete the online application form within 10 minutes, and
+                                our account was verified within two hours.
+                                <br><br> Overall, Finflow-X excels in account opening, providing a
+                                user-friendly and efficient experience for traders. The low minimum deposit
+                                requirement makes it accessible for traders of various levels.
                             </p>
                         </div>
                     </div>
+
                     
                   </div>
 
                   <div class="col-sm-12 col-lg-12">
 
-                    <div class="review" id="fees">
-                        <span>Equitiz review</span>
+                    <div class="review" id="deposit">
+                        <span>Finflow-x review</span>
                         <div class="review-title">
                             <div class="review-title-left">
-                                <h3>Fees</h3>
-                                <p><span class="badge fs-6" style="border: 1px solid rgb(24, 14, 61); color: rgb(24, 14, 61);">Score: 5/5</span></p>
-                            </div>
-                            <div>
-                                <span class="arrow"><i class="bi bi-arrow-right-circle fs-1 arrowclr"></i></span>
+                                <h3>Deposit and Withdrawal</h3>
+                                <p><span class="badge fs-6" style="border: 1px solid #005779; color: #005779;">Score: 4.7/5</span></p>                                       </div>
+                            <div class="review-title-right">
+                                <span class="arrow"><img src="img/arrow.svg" alt=""></span>
                             </div>
                         </div>
                         <div class="review-explicit">
-                            <p>
-                                Competitive fee structure with low forex fees. Free deposit and withdrawal options. Inactivity fee and relatively high stock CFD fees.
-                            </p>
+                            <p>Swift and fee-free deposit and withdrawal avenues via multiple channels. Supports bank transfers, credit/debit cards, and electronic wallets.
+                                </p>
                         </div>
                         <div class="review-content">
                             <div class="summary-text-pros">
                                 <div class="col-lg-6 summary-pros">
-                                    <span style="color: #005779">Pros</span>
+                                    <span>Pros</span>
                                     <ul>
-                                        <li>Low forex fees</li>
-                                        <li>No withdrawal fee</li>
+                                        <li>Credit/Debit card available for deposits</li>
+                                        <li>Free withdrawals</li>
+                                        <li>No deposit fees</li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6 summary-cons">
-                                    <span style="color: purple">Cons</span>
+                                    <span>Cons</span>
                                     <ul>
-                                        <li>Inactivity fee</li>
-                                        <li>Stock CFD fees</li>
+                                        <li>Only a few minor currencies accepted for the account base</li>
                                     </ul>
                                 </div>
                             </div>
-                            <h4>Assets:</h4>
-                            <div class="reviewperks my-4">
-                                <div class="perk">
-                                    <span>S&P 500 CFD benchmark fee</span>
-                                    <p><b>$2.9</b></p>
-                                </div>
-                                <div class="perk">
-                                    <span>Credit/debit card deposit</span>
-                                    <p><b>Yes</b></p>
-                                </div>
-                                <div class="perk">
-                                    <span>Minimum deposit</span>
-                                    <p><b>$1500</b></p>
-                                </div>
-                                <div class="perk">
-                                    <span>Negative balance protection</span>
-                                    <p><b>Yes</b></p>
-                                </div>
-                            </div>
-                            <h4>How fees are ranked:</h4>
+                            <h4>Account Base Currencies:</h4>
                             <p>
-                                Finflow-X's fee levels are ranked as low, average, or high based on a
-                                comparison with other reviewed brokers. Trading fees and non-trading fees
-                                are taken into account.
-                                <br><br> Trading fees include commissions, spreads, financing rates, and
-                                conversion fees. Non-trading fees include charges unrelated to trading, such
-                                as withdrawal fees or inactivity fees.
-                                <br><br> Comparisons are made with similar brokers, based on objective
-                                factors like product offerings, client profile, and fee structure.
-                            </p>
-                            <h4>Trading Fees:</h4>
-                            <p>
-                                Finflow-X's trading fees are considered low. The pricing structure depends
-                                on the chosen account type, with the review focusing on the FxPro Platform
-                                account.
-                                <br><br> To make fee comparisons clear and comparable, a typical trade
-                                scenario was used for selected products in different asset classes. This
-                                includes popular instruments such as stock index CFDs, stock CFDs,
-                                and forex pairs.
-                            </p>
-                            <h4>Non-Trading Fees:</h4>
-                            <p>
-                                Finflow-X has average non-trading fees. There are no account fees, and most
-                                withdrawals are free. However, fees may apply when withdrawing funds to
-                                Neteller or Skrill without trading or refunding to PayPal after more than 6
-                                months from the initial funding.
-                                <br><br>
-                                <br><br> Overall, Finflow-X offers competitive fees for trading, but it's
-                                important to be aware of the potential inactivity fee and higher stock CFD
+                                At Finflow-X, you have the option to choose from 8 base currencies,
+                                including USD, EUR, GBP, CHF, PLN, AUD, JPY, and ZAR. While this selection
+                                is average compared to similar brokers, it is worth noting that only a few
+                                minor currencies are accepted.
+                                <br><br> Why does this matter? If you fund your trading account in the same
+                                currency as your bank account or trade assets in the same currency as your
+                                trading account base currency, you can avoid paying conversion
                                 fees.
+                            </p>
+                            <h4>Deposit Fees and Options:</h4>
+                            <p>
+                                Finflow-X does not charge any deposit fees. Alongside bank transfers and
+                                credit/debit cards, you can utilize several types of electronic wallets,
+                                including PayPal, Skrill, and Neteller. However, please note that electronic
+                                wallets are not available for
+                                UK clients.
+                            </p>
+                            <h4>Withdrawal Fees and Options:</h4>
+                            <p>
+                                Finflow-X generally does not impose withdrawal fees. However, there are
+                                exceptions. A fee is applicable if you refund to your PayPal account more
+                                than 6 months after the initial funding or if you refund to Neteller or
+                                Skrill without having executed any
+                                trades.
+                                <br><br> How long does it take to withdraw money from Finflow-X? In our
+                                testing, credit card/bank transfer withdrawals took 1 business day.
+                                <br><br> Please note that withdrawals can only be made to accounts in your
+                                name.
+                            </p>
+                            <h4>How to Withdraw Money from Finflow-X:</h4>
+                            <p>To withdraw money from your Finflow-X account, follow these steps:</p>
+                            <ul>
+                                <li>Log in to your account (Finflow-X Direct).</li>
+                                <li>Go to the 'Wallet' section.</li>
+                                <li>Click on 'Withdrawal.'</li>
+                                <li>Select your preferred withdrawal method.</li>
+                                <li>Enter the withdrawal amount.</li>
+                            </ul>
+                            <p>
+                                Overall, Finflow-X excels in providing free and efficient deposit and
+                                withdrawal options through a variety of channels. The availability of
+                                credit/debit cards and the absence of deposit fees are significant
+                                advantages. However, the limitation on minor
+                                currencies may be a drawback for some traders.
                             </p>
                         </div>
                     </div>
+
                     
                   </div>
 
                   <div class="col-sm-12 col-lg-12">
 
-                    <div class="review" id="fees">
-                        <span>Equitiz review</span>
+                    <div class="review" id="web">
+                        <span>Finflow-x review</span>
                         <div class="review-title">
                             <div class="review-title-left">
-                                <h3>Fees</h3>
-                                <p><span class="badge fs-6" style="border: 1px solid rgb(24, 14, 61); color: rgb(24, 14, 61);">Score: 5/5</span></p>
+                                <h3>Web Trading Platform</h3>
+                                <p><span class="badge fs-6" style="border: 1px solid #005779; color: #005779;">Score: 4/5</span></p>
                             </div>
-                            <div>
-                                <span class="arrow"><i class="bi bi-arrow-right-circle fs-1 arrowclr"></i></span>
+                            <div class="review-title-right">
+                                <span class="arrow"><img src="img/arrow.svg" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="review-explicit">
+                            <p>Web trading platform with strengths and areas for enhancement. Offers transparent fee breakdowns, along with customizable charts and workspaces.</p>
+                        </div>
+                        <div class="review-content">
+                            <div class="summary-text-pros">
+                                <div class="col-lg-6 summary-pros">
+                                    <span>Pros</span>
+                                    <ul>
+                                        <li>Clear fee report</li>
+                                        <li>Good customizability for charts and workspace</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 summary-cons">
+                                    <span>Cons</span>
+                                    <ul>
+                                        <li>No two-step (safer) login</li>
+                                        <li>Lack of price alerts</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h4>Available Trading Platforms at Finflow-X:</h4>
+                            <p>Finflow-X provides multiple trading platforms for users to choose from:</p>
+                            <ul>
+
+                                <li>MetaTrader 5 (MT5) - third-party platform</li>
+
+                            </ul>
+                            <p>
+                                For our review, we tested the widely used MT5 platform.
+                            </p>
+
+                            <h4>Languages Supported on Finflow-X Web Trading Platform:</h4>
+                            <p>
+                                The MT5 trading platform on Finflow-X is available in a large number of
+                                languages, including but not limited to Arabic, Bulgarian, Chinese, Dutch,
+                                English, French, German, Italian, Japanese, Russian, Spanish, Swedish, and
+                                Turkish.
+                            </p>
+
+                            <h4>Look and Feel:</h4>
+                            <p>
+                                The Finflow-X MT4 platform offers great customizability, allowing users to
+                                adjust the size and position of tabs according to their preferences.
+                                However, the overall design of the platform feels outdated, and some
+                                features may be difficult to locate. For
+                                example, adding an asset to the watchlist may not be immediately intuitive.
+                            </p>
+
+                            <h4>Login and Security:</h4>
+                            <p>
+                                Finflow-X currently provides only one-step login, which may pose a security
+                                risk. Implementing two-step authentication would enhance the platform's
+                                security features.
+                            </p>
+
+                            <h4>Search Functions:</h4>
+                            <p>
+                                The search functions on the platform are decent, with assets grouped into
+                                various categories. However, there is a lack of a manual search function
+                                where users can directly type the name of a specific asset.
+                            </p>
+
+                            <h4>Placing Orders:</h4>
+                            <p>
+                                The basic order types are available on the Finflow-X web trading platform,
+                                including market, limit, stop, and trailing stop orders. However, more
+                                advanced order types such as "one cancels the other" are not supported.
+                                Trailing Stop orders are exclusive
+                                to the MT4 desktop platform.
+                                <br><br>
+                            </p>
+
+
+
+                            <h4>Portfolio and Fee Reports: </h4>
+                            <p>
+                                Finflow-X delivers clear portfolio and fee reports on its web trading
+                                platform. Users can easily view their profit/loss balance and the
+                                commissions they have paid. However, we couldn't find a way to download
+                                these reports directly from the platform.
+                                <br><br> Overall, while the Finflow-X web trading platform offers some
+                                useful features such as customizable charts and workspace, it falls short in
+                                terms of design, price alerts, and advanced order types. Additionally,
+                                the absence of two-step authentication and limited search functions may
+                                impact the user experience.
+                            </p>
+
+                        </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-sm-12 col-lg-12">
+
+                    <div class="review" id="mobile">
+                        <span>Finflow-x review</span>
+                        <div class="review-title">
+                            <div class="review-title-left">
+                                <h3>Mobile Trading Platform</h3>
+                                <p><span class="badge fs-6" style="border: 1px solid #005779; color: #005779;">Score: 4.4/5</span></p>
+                            </div>
+                            <div class="review-title-right">
+                                <span class="arrow"><img src="img/arrow.svg" alt=""></span>
                             </div>
                         </div>
                         <div class="review-explicit">
                             <p>
-                                Competitive fee structure with low forex fees. Free deposit and withdrawal options. Inactivity fee and relatively high stock CFD fees.
+                                Exceptional mobile trading platform design. User-friendly interface featuring efficient search functionality.
                             </p>
                         </div>
                         <div class="review-content">
                             <div class="summary-text-pros">
                                 <div class="col-lg-6 summary-pros">
-                                    <span style="color: #005779">Pros</span>
+                                    <span>Pros</span>
                                     <ul>
-                                        <li>Low forex fees</li>
-                                        <li>No withdrawal fee</li>
+                                        <li>User-friendly interface</li>
+                                        <li>Good search function</li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6 summary-cons">
-                                    <span style="color: purple">Cons</span>
+                                    <span>Cons</span>
                                     <ul>
-                                        <li>Inactivity fee</li>
-                                        <li>Stock CFD fees</li>
+                                        <li>No Touch/Face ID login</li>
+
                                     </ul>
                                 </div>
                             </div>
-                            <h4>Assets:</h4>
-                            <div class="reviewperks my-4">
-                                <div class="perk">
-                                    <span>S&P 500 CFD benchmark fee</span>
-                                    <p><b>$2.9</b></p>
-                                </div>
-                                <div class="perk">
-                                    <span>Credit/debit card deposit</span>
-                                    <p><b>Yes</b></p>
-                                </div>
-                                <div class="perk">
-                                    <span>Minimum deposit</span>
-                                    <p><b>$1500</b></p>
-                                </div>
-                                <div class="perk">
-                                    <span>Negative balance protection</span>
-                                    <p><b>Yes</b></p>
-                                </div>
-                            </div>
-                            <h4>How fees are ranked:</h4>
+
+
+
+                            <h4>Supported Languages on the Mobile Trading Platform:</h4>
                             <p>
-                                Finflow-X's fee levels are ranked as low, average, or high based on a
-                                comparison with other reviewed brokers. Trading fees and non-trading fees
-                                are taken into account.
-                                <br><br> Trading fees include commissions, spreads, financing rates, and
-                                conversion fees. Non-trading fees include charges unrelated to trading, such
-                                as withdrawal fees or inactivity fees.
-                                <br><br> Comparisons are made with similar brokers, based on objective
-                                factors like product offerings, client profile, and fee structure.
+                                The mobile trading platform on Finflow-X supports multiple languages,
+                                similar to the web version. For iOS, the language options are the same as
+                                those available on the web version. On Android, the platform uses the
+                                default language of the user's phone.
                             </p>
-                            <h4>Trading Fees:</h4>
+
+                            <h4>Look and Feel: </h4>
                             <p>
-                                Finflow-X's trading fees are considered low. The pricing structure depends
-                                on the chosen account type, with the review focusing on the FxPro Platform
-                                account.
-                                <br><br> To make fee comparisons clear and comparable, a typical trade
-                                scenario was used for selected products in different asset classes. This
-                                includes popular instruments such as stock index CFDs, stock CFDs,
-                                and forex pairs.
+                                The Finflow-X MT4 mobile trading platform features a great-looking design
+                                that is visually appealing. The platform is well organized and
+                                user-friendly, allowing users to easily navigate and access all the
+                                necessary features.
                             </p>
-                            <h4>Non-Trading Fees:</h4>
+
+                            <h4>Login and Security:</h4>
                             <p>
-                                Finflow-X has average non-trading fees. There are no account fees, and most
-                                withdrawals are free. However, fees may apply when withdrawing funds to
-                                Neteller or Skrill without trading or refunding to PayPal after more than 6
-                                months from the initial funding.
-                                <br><br>
-                                <br><br> Overall, Finflow-X offers competitive fees for trading, but it's
-                                important to be aware of the potential inactivity fee and higher stock CFD
-                                fees.
+                                Finflow-X provides the option for two-step login on the MT4 mobile trading
+                                platform, which adds an extra layer of security to the login process.
+                                However, it does not support Touch/Face ID login, which would provide
+                                greater convenience for users.
+                            </p>
+
+                            <h4>Search Functions: </h4>
+                            <p>
+                                The search functions on the mobile trading platform are effective, allowing
+                                users to search for specific products by typing their names or by navigating
+                                through category folders. This makes it easier to locate and trade desired
+                                assets.
+                            </p>
+
+                            <h4>Placing Orders:</h4>
+                            <p>
+                                Users can utilize the same order types and order time limits on the mobile
+                                trading platform as they would on the web trading platform. This includes
+                                market, limit, stop, and trailing stop orders, as well as order time limits
+                                like Good 'til Canceled (GTC)
+                                and Good 'til Time (GTT).
+                            </p>
+
+                            <h4>Alerts and Notifications: </h4>
+                            <p>
+                                While alerts and notifications can be set for mobile devices, this
+                                functionality is only available on the desktop trading platform. It would be
+                                more convenient if users could set alerts and notifications directly from
+                                the mobile trading platform itself.
+                            </p>
+
+                            <p>
+                                Overall, the Finflow-X mobile trading platform, particularly on mobile,
+                                offers a well-designed and user-friendly experience. The platform's search
+                                function is effective, and the option for two-step login enhances security.
+                                However, the lack of Touch/Face
+                                ID login, order confirmation, and full alerts and notifications
+                                functionality on the mobile platform may be considered drawbacks.
                             </p>
                         </div>
                     </div>
+
+                  </div>
+                  <div class="col-sm-12 col-lg-12">
+
+                    <div class="review" id="research">
+                        <span>Finflow-x review</span>
+                        <div class="review-title">
+                            <div class="review-title-left">
+                                <h3>Research</h3>
+                                <p><span class="badge fs-6" style="border: 1px solid #005779; color: #005779;">Score: 5/5</span></p>                                       </div>
+                            <div class="review-title-right">
+                                <span class="arrow"><img src="img/arrow.svg" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="review-explicit">
+                            <p>
+                                Comprehensive research tools, including robust technical analysis and market overview features. Lacks certain fundamental data but compensates with user-friendly interfaces and robust analytical tools.
+
+                            </p>
+                        </div>
+                        <div class="review-content">
+                            <div class="summary-text-pros">
+                                <div class="col-lg-6 summary-pros">
+                                    <span>Pros</span>
+                                    <ul>
+                                        <li>Trading ideas from third-party providers</li>
+                                        <li>User-friendly interface</li>
+                                        <li>Good set of analytical tools</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 summary-cons">
+                                    <span>Cons</span>
+                                    <ul>
+                                        <li>No fundamental data available</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h4>Research Tools on Finflow-X:</h4>
+                            <ul>
+                                <li>Tools Section on Finflow-X Platform: The 'Tools' section on the
+                                    Finflow-X platform provides various research tools, including technical
+                                    analysis indicators and features to support traders in their analysis
+                                    and
+                                    decision-making process.</li>
+                                <li>Analytics & Education Section: Finflow-X's 'Analytics & Education'
+                                    section offers additional research tools and resources. It includes
+                                    third-party services such as the LiveSquawk news feed, which provides
+                                    audio
+                                    commentary on market events, as well as Trading Central's trade
+                                    recommendations.</li>
+                            </ul>
+
+                            <h4>Trading Ideas:</h4>
+                            <p>
+                                Finflow-X offers trading ideas from third-party provider Trading Central.
+                                Users can access these trading ideas by navigating to the 'Analytics &
+                                Education' section and selecting 'Trading Central' and then 'Take me to
+                                Trading Central'.
+                            </p>
+
+                            <h4>Fundamental Data:</h4>
+                            <p>
+                                While Finflow-X provides limited fundamental data, it offers an economic
+                                calendar and FxPro Squawk. The economic calendar allows users to filter
+                                events based on countries and data types, which is beneficial for forex
+                                traders. FxPro Squawk provides audio
+                                news updates.
+                            </p>
+
+                            <h4>Charting:</h4>
+                            <p>
+                                Finflow-X offers charting tools with access to 32 technical indicators.
+                                These charting tools are available on the MetaTrader trading platforms
+                                integrated into the platform. However, the design of the charting interface
+                                may be considered outdated, and
+                                some features can be challenging to use, such as removing indicators from
+                                the chart.
+                            </p>
+
+                            <h4>Search Functions:</h4>
+                            <p>
+                                The search functions on the mobile trading platform are effective, allowing
+                                users to search for specific products by typing their names or by navigating
+                                through category folders. This makes it easier to locate and trade desired
+                                assets.
+                            </p>
+
+                            <h4>News Feed:</h4>
+                            <p>
+                                Finflow-X provides a news feed with audio commentary through the 'Squawk'
+                                feature in the 'Analytics & Education' section. Additionally, the platform
+                                offers a dashboard page that provides an overview of recent market moves and
+                                client positioning in the
+                                forex markets.
+                                <br><br> In summary, Finflow-X offers robust research tools and resources,
+                                including technical analysis features and a market overview. While it lacks
+                                fundamental data, the platform provides trading ideas from
+                                Trading Central, a user-friendly interface, and a good set of analytical
+                                tools. Traders can benefit from the available research tools to support
+                                their trading strategies and decision-making processes.
+                            </p>
+
+                        </div>
+                    </div>
+
+                  </div>
+                  <div class="col-sm-12 col-lg-12">
+
+                    <div class="review" id="education">
+                        <span>Finflow-x review</span>
+                        <div class="review-title">
+                            <div class="review-title-left">
+                                <h3>Education</h3>
+                                <p><span class="badge fs-6" style="border: 1px solid #005779; color: #005779;">Score: 5/5</span></p>                                       </div>
+                            <div class="review-title-right">
+                                <span class="arrow"><img src="img/arrow.svg" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="review-explicit">
+                            <p>
+                                In-depth educational resources encompassing a demo account, platform tutorials, webinars, videos, and written materials.
+                            </p>
+                        </div>
+                        <div class="review-content">
+                            <div class="summary-text-pros">
+                                <div class="col-lg-6 summary-pros">
+                                    <span>Pros</span>
+                                    <ul>
+
+                                        <li>Trading platform tutorial videos</li>
+                                        <li>Educational videos</li>
+                                        <li>Webinars</li>
+                                        <li>Written educational materials</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 summary-cons">
+                                    <span>Cons</span>
+                                    <ul>
+                                        <li>None</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h4>Education Tools on Finflow-X:</h4>
+                            <ul>
+                                <li>Platform Tutorial Videos: Finflow-X offers platform tutorial videos to
+                                    help users navigate and utilize the features and tools available on the
+                                    platform. These tutorials provide step-by-step guidance on using
+                                    the platform effectively. Note that tutorials may not be available for
+                                    MetaTrader platforms specifically.</li>
+                                <li>General Educational Videos: The platform provides educational videos
+                                    covering various trading topics. These videos offer valuable insights
+                                    and knowledge on different aspects of trading, including technical
+                                    analysis,
+                                    risk management, and trading strategies.</li>
+                                <li>Webinars: Finflow-X occasionally offers forex webinars, which are live
+                                    online seminars conducted by industry experts. Webinars provide an
+                                    interactive learning experience, allowing participants to ask questions
+                                    and receive real-time insights from experienced traders.</li>
+                                <li>Written Educational Materials: Finflow-X offers written educational
+                                    materials, including basic online forex courses that cover essential
+                                    concepts and principles. These courses often include tests for
+                                    self-evaluation,
+                                    enabling traders to assess their understanding of the material.
+                                    Additionally, a comprehensive guide to technical analysis is available
+                                    through Trading Central.</li>
+                            </ul>
+
+                            <p>
+                                Overall, Finflow-X excels in providing educational resources to its users.
+                                With a demo account, trading platform tutorials, educational videos,
+                                webinars, and written materials, traders have access to a wide range of
+                                tools to enhance their trading knowledge
+                                and skills. These educational resources cater to traders of all levels, from
+                                beginners seeking foundational knowledge to experienced traders looking to
+                                refine their strategies.
+                            </p>
+
+                        </div>
+                    </div>
+
+                  </div>
+                  <div class="col-sm-12 col-lg-12">
+
+                    <div class="review" id="safety">
+                        <span>Finflow-x review</span>
+                        <div class="review-title">
+                            <div class="review-title-left">
+                                <h3>Safety</h3>
+                                <p><span class="badge fs-6" style="border: 1px solid #005779; color: #005779;">Score: 4/5</span></p>
+                            </div>
+                            <div class="review-title-right">
+                                <span class="arrow"><img src="img/arrow.svg" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="review-explicit">
+                            <p>
+                                Emphasis on security, backed by regulation from four esteemed financial authorities. Notably not listed on any exchange and has room for improvement in financial information disclosure.
+                            </p>
+                        </div>
+                        <div class="review-content">
+                            <div class="summary-text-pros">
+                                <div class="col-lg-6 summary-pros">
+                                    <span>Pros</span>
+                                    <ul>
+                                        <li>Negative balance protection</li>
+                                        <li>Regulated by top-tier FCA</li>
+                                        <li>Well-established brand</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 summary-cons">
+                                    <span>Cons</span>
+                                    <ul>
+                                        <li>Financial information is not publicly available</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h4>Safety Measures:</h4>
+                            <p>
+                                Negative Balance Protection: Finflow-X provides negative balance protection,
+                                ensuring that clients' account balances cannot go below zero. This means
+                                that in the event of extreme market volatility or unexpected losses, clients
+                                are protected from owing
+                                more than their initial investment.
+                            </p>
+
+                            <p>
+                                Overall, Finflow-X offers competitive fees, user-friendly platforms, extensive research tools, and a robust educational framework, prioritizing safety through global financial regulation. However, it faces limitations in stock CFD fees, financial disclosure, and certain platform aspects.
+                            </p>
+
+                        </div>
+                    </div>
+
                   </div>
 
               </div>
@@ -716,7 +1183,32 @@
           </div>
       </section>
 
-
+      <section>
+        <div class="container">
+            <div style="margin-bottom: 100px;">
+                <span>Equitiz review</span>
+                <div class="review-title" style="padding-bottom: 15px;">
+                    <div class="review-title-left">
+                        <h2>Summary</h2>
+                    </div>
+                </div>
+                <div class="review-explicit">
+                    <p>
+                        Equitiz is your all-inclusive platform for embarking on a successful trading journey. Whether you're diving into the world of cryptocurrencies or exploring traditional markets, Equitiz provides the tools and resources you need to trade with confidence.
+                        <br><br> Our platform offers a seamless and secure trading experience, with advanced features that cater to both seasoned traders and those new to the field. With an intuitive interface, real-time data, and user-friendly tools, Equitiz empowers you to execute trades with precision.
+                        <br><br> Partnering with top-tier brokers, Equitiz ensures you have access to exceptional trading services. Our brokers offer competitive spreads, rapid execution, and comprehensive market analysis across a range of asset classes, including cryptocurrencies, stocks, forex, and commodities.
+                        <br><br> Education is paramount to success, and Equitiz equips you with a wealth of knowledge. Dive into our extensive library of free educational resources, including articles, tutorials, videos, and more. Stay informed with our daily news section, delivering insights that guide your investment decisions.
+                        <br><br> Our dedicated team of professionals is here to support you every step of the way. Regardless of your trading interests, from cryptocurrencies to stocks and beyond, Equitiz offers guidance to help you navigate diverse markets and strategies.
+                        <br><br> Equitiz thrives on diversification, providing a spectrum of assets for you to trade and invest in. Whether you're captivated by cryptocurrencies, intrigued by forex, or drawn to commodities and stocks, our platform caters to your interests.
+                        <br><br> Whether you're a seasoned trader with years of experience or a newcomer eager to make your mark, Equitiz is your partner in achieving trading success. Join us today and unlock the tools, resources, and support you need to thrive in the dynamic world of trading.
+                    </p>
+                </div>
+                <div class="review-visit text-center">
+                    <a href="https://www.finflow-x.com/">Visit Equitiz</a>
+                </div>
+            </div>
+        </div>
+      </section>
 
 
 
@@ -737,6 +1229,13 @@
             </ul>
         </footer>
     </div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en',includedLanguages: 'en,fr,pl'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <!-- <script type="javascript" src="js/bootstrap.bundle.min.js"></script> -->

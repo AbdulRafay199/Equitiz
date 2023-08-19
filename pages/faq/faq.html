@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../styles/faq.css">
     <link rel="stylesheet" href="../..//bootstrap/bootstrap.min.css">
+    <script src="../../js/translator.js"></script>
 </head>
 
 <body>
@@ -61,30 +62,45 @@
             <div class="row d-flex justify-content-center align-content-center">
                 <div class="col-sm-12 col-lg-6 text-light d-flex justify-content-center flex-column p-4">
                     <h1 class="herotxt">FAQs</h1>
-                    <p class="heropara">with a #1 Rated Broker</p>
-                    <p class="heropara2">With 0.0 spreads, $0 deposit fees, $0 minimum account size and over 13 years of operating, savvy traders like you have already made the switch.</p>
+                    <p class="heropara">Explore Common Questions</p>
+                    <p class="heropara2">Welcome to the Equitiz FAQ section. Here, we address some of the most common questions you may have about our platform, services, and trading. If you don't find the answer you're looking for, please feel free to contact us at [contact email], and we'll be happy to assist you.</p>
                 </div>
                 <div class="col-sm-12 col-lg-6 d-flex justify-content-center align-items-start flex-column">
-                    <img class="heroimg img-fluid" src="images/home/undraw_digital_currency_qpak__1_-removebg-preview.png" alt="">
+                    <img class="heroimg img-fluid" src="../../images/FAQs/Untitled (1006 × 677 px) (1134 × 608 px) (1085 × 755 px).png" alt="">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container division p-4">
-        <div class="d-flex justify-content-center align-items-center flex-column">
-            <h1 class="fw-bold text-center">FAQs</h1>
-            <hr class="about-line mb-4 mb-lg-0"/>
-        </div>
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11; display: none;">
+      <div id="liveToast" class="toast bg-dark show" role="alert" aria-live="assertive" aria-atomic="true" style="width: 300px;">
+          <div class="toast-header bg-dark text-light">
+              <div class="row">
+                  <div class="col-12">
+                      <img src="https://equitiz.com/img/logo.png" class="rounded me-2" alt="..." width="100px">
+                  </div>
+                  <div class="col-12">
+                      <strong class="me-auto">Want to change Language?</strong>
+                  </div>
+              </div>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+              <div id="google_translate_element"></div>
+          </div>
+      </div>
+      </div>
+
+    <div class="container p-4" style="margin-top: 80px;">
         <section class="faq-container m-2 m-lg-5">
             <div class="faqmain">
 
                 <!-- faq question -->
-                <h1 class="faq-page">Fees</h1>
+                <h1 class="faq-page">What is Equitiz?</h1>
 
                 <!-- faq answer -->
                 <div class="faq-body">
-                    <p>Finflow-X has competitive fees structure and offers free deposit and withdrawal options. However, it does charge an inactivity fee, are reand the fees for stock CFDs as well.</p>
+                    <p>Equitiz is an online trading platform that offers a comprehensive range of trading options, including cryptocurrencies, commodities, stocks, and forex. Our platform is designed to empower both novice and experienced traders with the tools and resources they need to succeed in the financial markets.</p>
                 </div>
             </div>
             <hr class="hr-line">
@@ -92,12 +108,12 @@
             <div class="faqmain">
 
                 <!-- faq question -->
-                <h1 class="faq-page">Account opening</h1>
+                <h1 class="faq-page">What markets can I trade on Equitiz? </h1>
 
                 <!-- faq answer -->
 
                 <div class="faq-body">
-                    <p>Opening an account with Finflow-X is hassle-free, straightforward, and incredibly fast. The account verification process can be completed in less than two hours.</p>
+                    <p>You can trade a variety of markets on Equitiz, including cryptocurrencies, commodities (such as gold, oil, etc.), stocks, and forex (foreign exchange).</p>
                 </div>
             </div>
             <hr class="hr-line">
@@ -106,11 +122,11 @@
             <div class="faqmain">
 
                 <!-- faq question -->
-                <h1 class="faq-page">Deposit and Withdrawal</h1>
+                <h1 class="faq-page">Is Equitiz suitable for beginners?</h1>
 
                 <!-- faq answer -->
                 <div class="faq-body">
-                    <p>Finflow-X offers free and fast deposit and withdrawal options through various channels, including bank transfers, credit/debit cards, and electronic wallets.</p>
+                    <p>Yes, Equitiz is designed to cater to traders at all experience levels. We offer educational resources, tutorials, and webinars to support beginners in understanding the basics of trading and to help experienced traders refine their strategies.</p>
                 </div>
             </div>
             <hr class="hr-line">
@@ -118,12 +134,12 @@
             <div class="faqmain">
 
                 <!-- faq question -->
-                <h1 class="faq-page">Web Trading Platform</h1>
+                <h1 class="faq-page">How do I open an account on Equitiz?</h1>
 
                 <!-- faq answer -->
 
                 <div class="faq-body">
-                    <p>Finflow-X offers a web trading platform, which has both strengths and weaknesses. While the platform provides a clear fee report and good customizability for charts and workspace</p>
+                    <p>Opening an account on Equitiz is hassle-free. Simply click on the "Sign Up" button on our website, provide the required information, complete the verification process, and you'll be ready to start trading.</p>
                 </div>
             </div>
             <hr class="hr-line">
@@ -131,15 +147,12 @@
             <div class="faqmain">
 
                 <!-- faq question -->
-                <h1 class="faq-page">Mobile Trading Platform</h1>
+                <h1 class="faq-page">What educational resources do you provide?</h1>
 
                 <!-- faq answer -->
 
                 <div class="faq-body">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                        aperiam.
-                        Perspiciatis, porro!</p>
+                    <p>We offer a range of educational resources, including trading tutorials, webinars, demo accounts, written materials, and more. These resources are designed to equip you with the knowledge and skills needed to navigate the financial markets.</p>
                 </div>
             </div>
             <hr class="hr-line">
@@ -147,15 +160,63 @@
             <div class="faqmain">
 
                 <!-- faq question -->
-                <h1 class="faq-page">Research</h1>
+                <h1 class="faq-page">How secure is my personal and financial information on Equitiz?</h1>
 
                 <!-- faq answer -->
 
                 <div class="faq-body">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                        aperiam.
-                        Perspiciatis, porro!</p>
+                    <p> At Equitiz, we prioritize the security of your information. We use advanced encryption and security protocols to safeguard your personal and financial data, ensuring a safe trading environment.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faqmain">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Can I trade on Equitiz using a mobile device?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p> Yes, Equitiz offers a user-friendly mobile trading platform that allows you to trade on the go using your smartphone or tablet.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faqmain">
+
+                <!-- faq question -->
+                <h1 class="faq-page">How do I deposit and withdraw funds from my account?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p> You can deposit and withdraw funds through various channels, including bank transfers, credit/debit cards, and electronic wallets. Simply log in to your account, navigate to the "Funds" section, and follow the instructions.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faqmain">
+
+                <!-- faq question -->
+                <h1 class="faq-page">What is contrarian trading?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p> Contrarian trading is an approach where traders go against prevailing market sentiment. It involves taking positions opposite to the majority, often based on the belief that markets may overreact to news or events, leading to potential profit opportunities.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faqmain">
+
+                <!-- faq question -->
+                <h1 class="faq-page">How do I contact customer support?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p> You can reach our customer support team by emailing us. We are here to assist you with any questions or concerns you may have. <br> Thank you for choosing Equitiz as your trading platform. If you have any further inquiries, please don't hesitate to contact us. Happy trading!</p>
                 </div>
             </div>
             <hr class="hr-line">
@@ -163,6 +224,15 @@
         </section>
     </div>
     
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en',includedLanguages: 'en,fr,pl'}, 'google_translate_element');
+      }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="../../js/faqDOM.js"></script>
 </body>

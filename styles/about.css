@@ -1,8 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
+.goog-te-combo {
+    background-color: #ecebf0 !important;
+    border: 0px !important;
+    border-radius: 10px !important;
+    font-size: 10pt;
+    font-weight:600;
+    display: inline-block;
+    padding: 10px !important;
+    cursor: pointer;
+    color: #005779;
+  }
+  
+  .VIpgJd-ZVi9od-ORHb-OEVmcd{
+    visibility: hidden !important;
+  }
+
 body{
     /* font-family: 'Work Sans', sans-serif; */
     font-family: "Poppins", sans-serif;
+    top: 0px !important;
 }
 
 .centercol{
@@ -158,12 +175,12 @@ body{
 .Global-Section {
     margin: 0;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 32px;
     line-height: 1.2;
     color: #110D3D;
     font-family: '__Red_Hat_Display_cf8251','__Red_Hat_Display_Fallback_cf8251',"Segoe UI",Roboto,sans-serif;
-    text-align: center;
+    text-align: start;
     width: 100%;
 }
 
@@ -180,8 +197,9 @@ body{
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
-    text-align: center;
+    text-align: start;
     width: 100%;
+    margin: 40px 0px;
 }
 
 @media (min-width: 0px) and (max-width:599.95px) {

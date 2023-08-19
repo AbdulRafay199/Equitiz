@@ -1,8 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
+.goog-te-combo {
+  background-color: #ecebf0 !important;
+  border: 0px !important;
+  border-radius: 10px !important;
+  font-size: 10pt;
+  font-weight:600;
+  display: inline-block;
+  padding: 10px !important;
+  cursor: pointer;
+  color: #005779;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd{
+  visibility: hidden !important;
+}
+
 body{
     /* font-family: 'Work Sans', sans-serif; */
     font-family: "Poppins", sans-serif;
+    top: 0px !important;
 }
 
 .division{
@@ -268,11 +285,33 @@ body{
 
 .outerprosncons{
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+}
+
+@media (max-width: 990px) {
+  .outerprosncons{
+    display: flex;
+    justify-content: start;
     align-items: start;
     flex-direction: column;
     padding: 20px;
 }
+}
+@media (min-width:992px) and (max-width: 1200px) {
+  .outerprosncons{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+    height: 350px;
+}
+}
+
 
 .innerprosncons{
     display: flex;
@@ -570,7 +609,7 @@ body{
   .review-visit a {
     text-decoration: none;
     color: white;
-    background-color: rgb(125, 13, 118);
+    background-color: rgb(24, 14, 61);
     padding: 10px;
     border-radius: 10px;
   }
